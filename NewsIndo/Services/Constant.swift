@@ -10,5 +10,5 @@ import Foundation
 struct Constant {
     static let newsUrl = "https://berita-indo-api-next.vercel.app/api/kumparan-news/"
     
-    static let newsTitle = "Berita Indonesia"
+    static let newsTitle = "Indonesia News"
 }
