@@ -8,7 +8,7 @@
 import SwiftUI
 import SafariServices
 
-struct ContentView: View {
+struct NewsView: View {
     
     @StateObject private var newsViewModel = NewsViewModel()
     
@@ -63,7 +63,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    NewsView()
 }
 
 @ViewBuilder

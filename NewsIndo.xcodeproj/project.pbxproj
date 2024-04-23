@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52BC6E122BD74AD600793A34 /* NewsIndoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6E112BD74AD600793A34 /* NewsIndoApp.swift */; };
-		52BC6E142BD74AD600793A34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6E132BD74AD600793A34 /* ContentView.swift */; };
+		52BC6E142BD74AD600793A34 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6E132BD74AD600793A34 /* NewsView.swift */; };
 		52BC6E162BD74AD700793A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6E152BD74AD700793A34 /* Assets.xcassets */; };
 		52BC6E192BD74AD700793A34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BC6E182BD74AD700793A34 /* Preview Assets.xcassets */; };
 		52BC6E242BD7503C00793A34 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6E232BD7503C00793A34 /* NewsModel.swift */; };
@@ -19,12 +19,15 @@
 		52BC6E312BD75AB800793A34 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6E302BD75AB800793A34 /* NewsViewModel.swift */; };
 		52BC6E342BD7627000793A34 /* StringExtensionDateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6E332BD7627000793A34 /* StringExtensionDateUtility.swift */; };
 		52BC6E362BD76D8800793A34 /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6E352BD76D8800793A34 /* DateUtility.swift */; };
+		52BC6E382BD7850500793A34 /* NewsTechnologyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6E372BD7850500793A34 /* NewsTechnologyModel.swift */; };
+		52BC6E3A2BD7873000793A34 /* NewsTechnologyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6E392BD7873000793A34 /* NewsTechnologyViewModel.swift */; };
+		52BC6E3E2BD7886800793A34 /* NewsTechnologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6E3D2BD7886800793A34 /* NewsTechnologyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52BC6E0E2BD74AD600793A34 /* NewsIndo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsIndo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BC6E112BD74AD600793A34 /* NewsIndoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsIndoApp.swift; sourceTree = "<group>"; };
-		52BC6E132BD74AD600793A34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52BC6E132BD74AD600793A34 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		52BC6E152BD74AD700793A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52BC6E182BD74AD700793A34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52BC6E232BD7503C00793A34 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
@@ -33,6 +36,9 @@
 		52BC6E302BD75AB800793A34 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		52BC6E332BD7627000793A34 /* StringExtensionDateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionDateUtility.swift; sourceTree = "<group>"; };
 		52BC6E352BD76D8800793A34 /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
+		52BC6E372BD7850500793A34 /* NewsTechnologyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTechnologyModel.swift; sourceTree = "<group>"; };
+		52BC6E392BD7873000793A34 /* NewsTechnologyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTechnologyViewModel.swift; sourceTree = "<group>"; };
+		52BC6E3D2BD7886800793A34 /* NewsTechnologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTechnologyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,8 @@
 		52BC6E202BD74AE600793A34 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				52BC6E132BD74AD600793A34 /* ContentView.swift */,
+				52BC6E132BD74AD600793A34 /* NewsView.swift */,
+				52BC6E3D2BD7886800793A34 /* NewsTechnologyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				52BC6E232BD7503C00793A34 /* NewsModel.swift */,
+				52BC6E372BD7850500793A34 /* NewsTechnologyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				52BC6E302BD75AB800793A34 /* NewsViewModel.swift */,
+				52BC6E392BD7873000793A34 /* NewsTechnologyViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -222,11 +231,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BC6E382BD7850500793A34 /* NewsTechnologyModel.swift in Sources */,
 				52BC6E242BD7503C00793A34 /* NewsModel.swift in Sources */,
 				52BC6E342BD7627000793A34 /* StringExtensionDateUtility.swift in Sources */,
 				52BC6E312BD75AB800793A34 /* NewsViewModel.swift in Sources */,
 				52BC6E2E2BD755DC00793A34 /* APIService.swift in Sources */,
-				52BC6E142BD74AD600793A34 /* ContentView.swift in Sources */,
+				52BC6E3A2BD7873000793A34 /* NewsTechnologyViewModel.swift in Sources */,
+				52BC6E142BD74AD600793A34 /* NewsView.swift in Sources */,
+				52BC6E3E2BD7886800793A34 /* NewsTechnologyView.swift in Sources */,
 				52BC6E122BD74AD600793A34 /* NewsIndoApp.swift in Sources */,
 				52BC6E362BD76D8800793A34 /* DateUtility.swift in Sources */,
 				52BC6E2C2BD7555900793A34 /* Constant.swift in Sources */,
